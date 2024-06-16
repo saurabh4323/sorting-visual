@@ -1,0 +1,67 @@
+/* src/components/SortingVisualizer.css */
+.visualizer-container {
+  text-align: center;
+  background-color: black;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+
+  h2{
+    color: white;
+  }
+}
+
+.array-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 20px auto;
+  width: 80%;
+  height: 60vh;
+  background-color: #000;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.array-bar {
+  background-color: #007bff; /* Temporary color */
+  margin: 2px;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  color: red;
+  font-size: 12px;
+}
+.array-bar:hover{
+  background-color: yellow;
+}
+
+.array-bar span {
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: 5px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: black;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

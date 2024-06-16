@@ -1,0 +1,32 @@
+/* src/components/Home.css */
+.home-container {
+  margin-top: 100px;
+  background-color: #bde0fe;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: #ffd60a;
+  display: inline-block;
+  /* margin: 50px auto; */
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Adds space between the navigation links */
+}
+
+nav a {
+  text-decoration: none;
+  color: #007bff;
+  padding: 10px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #007bff;
+  color: white;
+}
